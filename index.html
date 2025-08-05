@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fechas de Nacimiento y Fallecimiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            max-width: 350px;
+            min-width: 250px;
+            flex: 1 1 300px;
+        }
+
+        section img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .info h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 900px) {
+            body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                max-width: 100%;
+                min-width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <img src="https://via.placeholder.com/120" alt="Foto 1">
+        <div class="info">
+            <h2>Ana Soledad Lizarazo Calderon</h2>
+            <p>Fecha de nacimiento: 01/01/1950</p>
+            <p>Fecha de fallecimiento: 12/07/2024</p>
+        </div>
+    </section>
+    <section>
+        <img src="https://via.placeholder.com/120" alt="Foto 2">
+        <div class="info">
+            <h2>Carlos Alberto Camargo Munevar</h2>
+            <p>Fecha de nacimiento: 15/05/1945</p>
+            <p>Fecha de fallecimiento: 4/07/2024</p>
+        </div>
+    </section>
+    <section>
+        <img src="https://via.placeholder.com/120" alt="Foto 3">
+        <div class="info">
+            <h2>Pablo Esteban Aguirre Camargo</h2>
+            <p>Fecha de nacimiento: 30/09/1999</p>
+            <p>Fecha de fallecimiento: 10/07/2023</p>
+        </div>
+    </section>
+</body>
+
+</html>
