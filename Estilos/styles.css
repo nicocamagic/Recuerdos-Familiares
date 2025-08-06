@@ -66,3 +66,12 @@ h1 {
     font-size: 16px;
     color: #555;
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 670px;
+}
