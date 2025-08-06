@@ -1,66 +1,68 @@
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
 
-        body {
-            min-height: 100vh;
-            font-family: Arial, sans-serif;
-            background-image: url('../IMG/fondo.jpg');
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-        h1 {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 30px;
-        }
+body {
+    min-height: 100vh;
+    font-family: 'Playwrite HU', sans-serif;
+    background-image: url('../IMG/fondo.jpg');
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
-        .personas {
-            flex: 1;
-            display: flex;
-            height: 100%;
-        }
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
-        .persona {
-            flex: 1;
-            background-image: url('../IMG/fondo-persona.jpg');
-            padding: 20px;
-            border-radius: 0;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(206, 33, 33, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border-right: 1px solid #eee;
-        }
+.personas {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
 
-        .persona:last-child {
-            border-right: none;
-        }
+.persona {
+    flex: 1;
+    background-image: url('../IMG/fondo-persona.jpg');
+    padding: 20px;
+    border-radius: 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(206, 33, 33, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #eee;
+}
 
-        .persona img {
-            width: 180px;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 50%;
-            margin-bottom: 15px;
-        }
+.persona:last-child {
+    border-right: none;
+}
 
-        .nombre {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #333;
-        }
+.persona img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
 
-        .fechas {
-            margin-top: 10px;
-            font-size: 16px;
-            color: #555;
-        }
+.nombre {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.fechas {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
