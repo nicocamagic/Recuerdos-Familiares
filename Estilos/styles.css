@@ -73,6 +73,7 @@ h1 {
     border-radius: 50%;
     position: absolute;
     top: 20px;
+    left: auto;
 }
 
 /* Responsive styles */
@@ -83,6 +84,12 @@ h1 {
         top: 10px;
         width: 80px;
         height: 80px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
 
     .personas {
