@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+/* styles_Ana.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Playwrite HU', sans-serif;
+    background-image: url('../IMG/fondo-persona.jpg');
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.fechas {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.fechas p strong {
+    color: black;
+
+}
+
+/* Secciones */
+section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.08);
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* Botones */
+button {
+    background: #ff384c;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #fa8fb1;
+    color : black;
+}
+
+/* Enlaces */
+button a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 8px;
+    }
+    section {
+        padding: 12px;
+    }
+    header {
+        padding: 18px 0;
+    }
+}
