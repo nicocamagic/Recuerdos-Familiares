@@ -1,8 +1,12 @@
-/* (Mantén tus estilos anteriores para .gallery-container y .gallery-item aquí) */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
 body {
-    font-family: sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
+    min-height: 100vh;
+    font-family: 'Playwrite HU', sans-serif;
+    background-image: url('../IMG/fondo.jpg');
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery-container {
